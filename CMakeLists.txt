@@ -4,5 +4,7 @@ add_library(keen
 		sqlite_func.h
 		sqlite_misc.h
 		sqlite_obj.h
+
+		str.h
 	)
 
