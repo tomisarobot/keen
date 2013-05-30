@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+set -e
+set -x
+set -u
+
+(cd `dirname $0`
+ 	pwd
+	(cd src
+	 	pwd
+		cmake -G "Unix Makefiles" . 
+	)
+)
+
